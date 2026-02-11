@@ -10,5 +10,14 @@ print(last_item)
 all_sample_bay = len(sample_bay_list)
 
 print(all_sample_bay)
-# 1.21
+# 1.21-1.22
 for sample in sample_bay_list :
+    print(sample)
+    print("transmitting data: [sample name]")
+# 1.31
+new_findings = [" "," "," "," "]
+#1.32
+for new_findings in range (3):
+    new_findings = input(f"enter name of new material {new_findings + 1}:")
+    new_findings.append("input")
+    print(f"entered:{new_findings} ")
